@@ -3,7 +3,6 @@ from datasets import load_dataset, Dataset, DatasetDict
 from dataclasses import dataclass, field
 from typing import Optional
 import torch
-
 from peft import LoraConfig
 from tqdm import tqdm
 import pandas as pd
@@ -36,7 +35,7 @@ def main():
     login(token='')  # replace with your token
     snli = load_dataset("stanfordnlp/snli")
 
-    # Get train, validation, and test splits
+    
     train_data = snli["train"]
     validation_data = snli["validation"]
     test_data = snli["test"]
@@ -58,7 +57,7 @@ def main():
 
     print(instructions_ds_dict['train']['text'][0])
     
-    token=""
+    token=""  # replace with your token
 
     if load_in_8bit and load_in_4bit:
         raise ValueError("Select either 8 bits or 4 bits, not both.")
