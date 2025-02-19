@@ -96,11 +96,8 @@ SNLIClassification/
 ---
 
 ## Acknowledgments
-This project utilizes the Hugging Face Transformers library and the SNLI dataset. LoRA fine-tuning techniques are applied for the efficient adaptation of large language models.
+- This project utilizes the Hugging Face Transformers library and the SNLI dataset. LoRA fine-tuning techniques are applied for the efficient adaptation of large language models.
+- This project was assigned as part of the NLP and LLM Course, instructed by Professor Ausif Mahmood.
 
 ---
-##
 
-This project was assigned as part of the NLP and LLM Course, instructed by Professor Ausif Mahmood.
-
----
